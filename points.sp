@@ -5,7 +5,7 @@
 
 public Plugin myinfo = 
 {
-	name = "Points sistem for events",
+	name = "Points system for events",
 	author = "KeidaS",
 	description = "Gives a point to a player and shows a rank",
 	version = "1.0",
