@@ -22,9 +22,9 @@ Handle db = INVALID_HANDLE;
 
 
 public void OnPluginStart(){
-	RegConsoleCmd("darpunto", GivePoint);
-	RegConsoleCmd("quitarpunto", RemovePoint);
-	RegConsoleCmd("puntos", ShowPoints);
+	RegConsoleCmd("givepoint", GivePoint);
+	RegConsoleCmd("removepoint", RemovePoint);
+	RegConsoleCmd("points", ShowPoints);
 	
 	ConnectDB();
 }
